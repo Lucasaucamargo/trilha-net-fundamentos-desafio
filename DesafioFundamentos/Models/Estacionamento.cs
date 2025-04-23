@@ -39,7 +39,7 @@ namespace DesafioFundamentos.Models
                 // TODO: Realizar o seguinte cálculo: "precoInicial + precoPorHora * horas" para a variável valorTotal                
                 // *IMPLEMENTE AQUI*
                 int horas = int.Parse(Console.ReadLine());
-                decimal valorTotal = precoinicial + precoPorHora * horas; 
+                decimal valorTotal = precoInicial + precoPorHora * horas; 
 
                 // TODO: Remover a placa digitada da lista de veículos
                 // *IMPLEMENTE AQUI*
@@ -61,6 +61,11 @@ namespace DesafioFundamentos.Models
                 Console.WriteLine("Os veículos estacionados são:");
                 // TODO: Realizar um laço de repetição, exibindo os veículos estacionados
                 // *IMPLEMENTE AQUI*
+                foreach (var veiculo in veiculos)
+                 {
+                    Console.WriteLine(veiculo);
+                 }
+     
             }
             else
             {
