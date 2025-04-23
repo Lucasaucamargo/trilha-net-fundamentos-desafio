@@ -18,7 +18,7 @@ namespace DesafioFundamentos.Models
             // *IMPLEMENTE AQUI*
             Console.WriteLine("Digite a placa do veículo para estacionar:");
             String placa = Console.ReadLine();
-            veiculos.add(placa);
+            veiculos.Add(placa);
 
         }
 
